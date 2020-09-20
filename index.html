@@ -11,7 +11,9 @@
     <div class="container">
         <div class="header__top">
             <div class="logo">
-                <img src="images/Logo.svg" alt="">
+                <a href="index.html">
+                    <img class="logo__img" src="images/Logo.svg" alt="">
+                </a>
             </div>
             <div class="caption"> Качественная оперативная цифровая, широкоформатная и сувенирная полиграфия!<br>
                 <span>Работаем с 9 до 18, вс и сб выходные</span>
@@ -20,26 +22,60 @@
                 <img src="images/user.svg" alt="">
                 <a href="">Личный кабинет</a>
             </div>
+
+
             <div class="blablabla">
                 <div class="shape__img">
-                    <img src="images/shopping-cart.svg" alt="">
-                    <div class="shape__img--radius"></div>
+                    <div class="sh-img">
+                        <img src="images/shopping-cart.svg" alt="">
+                        <div class="sh_gmi">
+                            <h4>3</h4>
+                        </div>
+                    </div>
                 </div>
                 <div class="bla">
                     <a href="">maket@test-vertka.ua</a>
                 </div>
                 <div class="mobile">
-                    <div class="mobileDropDown"></div>
                     <div class="mobile__icon">
                         <img src="images/facebook.svg" alt="">
                         <img src="images/mobile.svg" alt="">
                     </div>
                     <span>(044) 345-40-42</span>
+                    <ul class="dropMenu">
+                        <li class="dropMenu--item">
+                            <div class="mobileDropDown">
+                                <img src="images/arrow.svg" alt="">
+                            </div>
+
+                            <ul class="submenu">
+                                <li class="test">
+                                    <div class="li-test"></div>
+                                </li>
+                                <li class="submenu__item">
+                                    <img src="images/vodafone.svg" alt="">
+                                    <p>(099) 445-54-18</p>
+                                </li>
+                                <li class="submenu__item">
+                                    <img src="images/kyiv.svg" alt="">
+                                    <p>(096) 497-78-03</p>
+                                </li>
+                                <li class="submenu__item">
+                                    <img src="images/life.svg" alt="">
+                                    <p>(063) 435-16-81</p>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
                 </div>
             </div>
+
+
         </div>
     </div>
+
     <hr>
+
     <div class="container">
         <!-- -->
         <div class="nav__menu">
@@ -66,6 +102,9 @@
                     <a href="">Контакты</a>
                 </li>
             </ul>
+            <div class="block__search">
+                <img src="images/search.svg" alt="">
+            </div>
         </div>
     </div>
 </header>
@@ -85,7 +124,14 @@
         </div>
     </section>
     <section class="production__page">
-        <div class="container">
+        <div class="container container--position">
+            <a href="">
+                <div class="callBack callBack__main">
+                    <img src="images/img-telephone.svg" alt="">
+                    <h4>Перезвоните <br>
+                        мне сейчас!</h4>
+                </div>
+            </a>
             <div class="wrapper">
                 <div class="block__title">
                     <h2>Продукция</h2>
@@ -150,7 +196,6 @@
                                 <li class="item">
                                     <a href="">Наклейки</a>
                                 </li>
-
                             </ul>
                         </div>
 
@@ -198,20 +243,23 @@
                 <div class="block__title">
                     <h2>Новости</h2>
                 </div>
-                <div class="wrap">
+                <div class="wrap wrap__news">
                     <div class="block__news">
                         <span>14 марта 2018</span>
-                        <p>Оазисное земледелие поднимает культурный субэкваториальный климат, там же можно с палками</p>
+                        <p class="text__decoration">Оазисное земледелие поднимает культурный субэкваториальный климат,
+                            там же можно с палками</p>
                     </div>
 
                     <div class="block__news">
                         <span>14 марта 2018</span>
-                        <p>Оазисное земледелие поднимает культурный субэкваториальный климат, там же можно с палками</p>
+                        <p class="text__decoration">Оазисное земледелие поднимает культурный субэкваториальный климат,
+                            там же можно с палками</p>
                     </div>
 
                     <div class="block__news">
                         <span>14 марта 2018</span>
-                        <p>Оазисное земледелие поднимает культурный субэкваториальный климат, там же можно с палками</p>
+                        <p class="text__decoration">Оазисное земледелие поднимает культурный субэкваториальный климат,
+                            там же можно с палками</p>
                     </div>
                 </div>
                 <div class="button__wrapper">
@@ -223,6 +271,13 @@
 </main>
 <footer>
     <div class="container container--position">
+        <a href="">
+            <div class="callBack callBack__footer">
+                <img src="images/img-telephone.svg" alt="">
+                <h4>Перезвоните <br>
+                    мне сейчас!</h4>
+            </div>
+        </a>
         <div class="copy">2018 — Все права защищены</div>
         <div class="header__top">
 
@@ -260,17 +315,25 @@
                 </ul>
             </div>
 
-            <div class="blablabla">
+            <div class="blablabla--width">
                 <div class="mobile">
-                    <div class="mobileDropDown"></div>
                     <div class="mobile__icon">
                         <img src="images/facebook.svg" alt="">
                         <img src="images/mobile.svg" alt="">
                     </div>
                     <span>(044) 345-40-42</span>
+                    <ul class="dropMenu">
+                        <li class="dropMenu--item">
+                            <div class="mobileDropDown">
+                                <img src="images/arrow.svg" alt="">
+                            </div>
+                        </li>
+                    </ul>
+                    <a class="contacts" href="">Контакты</a>
                 </div>
-                <a href="">Контакты</a>
+
             </div>
+
 
         </div>
         <div class="foot">

@@ -1,0 +1,35 @@
+body{
+    padding:180px 190px;
+}
+.q{
+
+}
+.q:before{
+    content: '';
+    width: 100px;
+    height: 20px;
+    position: absolute;
+    top: 0;
+    left: -2px;
+    transform: rotate(45deg);
+    background-color: #3A4047;
+    border-radius: 5px;
+}
+.q:after{
+    content: '';
+    width: 100px;
+    height: 4px;
+    position: absolute;
+    top: 0;
+    left:3px;
+    transform: rotate(-45deg);
+    background-color: #3A4047;
+    border-radius: 5px;
+}
+
+
+
+.section:hover .layer>p {
+    text-decoration: underline;
+}
+
